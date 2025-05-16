@@ -119,3 +119,10 @@ git remote set-url origin https://github.com/BasmalaHesham2/fcc-postgres-univers
 rm -rf .git
 git init
 git add .
+git commit -m "Fresh commit"
+git branch -M main
+git remote add origin https://github.com/BasmalaHesham2/fcc-postgres-universedb.git
+git push -u origin main
+__vsc_prompt_cmd_original
+\c universe
+psql --username=freecodecamp --dbname=postgres
