@@ -126,3 +126,5 @@ git push -u origin main
 __vsc_prompt_cmd_original
 \c universe
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git add .
